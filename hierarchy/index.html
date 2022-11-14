@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Hierarchy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <!--parent-->>
+        <div class="wrapper">
+            <!--parent and child-->
+    <div class="ol">
+       <!-- child and grand child-->
+        <h1 id="heading-1">Ordered list</h1>
+        <p class="message-1">My likes</p>
+        <ol>
+            <li>Hiking</li>
+            <li>Coding</li>
+            <li>Making friends</li>
+            <li>Workouts</li>
+            <li>Listening to Afrobeats</li>
+        </ol>
+
+    </div>
+    <!--child-->
+    <div class="ul">
+        <ul>
+        <h1 id="heading-2">Unordered list</h1>
+        <p class="message-2">My dislikes</p>
+       
+            <li>Criticism</li>
+            <li>Noisy places</li>
+            <li>Crowded places</li>
+            <li>Disorganized room</li>
+            <li>Messy hair</li>
+        </ul>
+    </div>
+    </div>
+    </main>
+</body>
+</html>
